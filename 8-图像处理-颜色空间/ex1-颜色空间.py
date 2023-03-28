@@ -9,7 +9,6 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # 3. 转换为HSV图像
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 # 4. 显示原图、GRAY、HSV图像
-cv2.imshow('img', img)
 cv2.imshow('gray', gray)
 cv2.imshow('hsv', hsv)
 
@@ -34,8 +33,6 @@ cv2.inRange(hsv, lower_red, upper_red)
 lower_red = np.array([0, 43, 46])
 upper_red = np.array([10, 255, 255])
 res= cv2.inRange(hsv, lower_red, upper_red)
-
-
 
 cv2.imshow('res', res)
 
