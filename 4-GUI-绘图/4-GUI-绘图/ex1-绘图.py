@@ -24,8 +24,10 @@ cv2.imshow('win',img)
 print('zhey1')
 print('zhey2')
 print('zhey3')
+print('zhey4')
+print('zhey4')
 
-
+print('zhey4')
 # 画面刷新
 cv2.waitKey(0)
 
