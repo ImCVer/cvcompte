@@ -21,6 +21,11 @@ cv2.circle(img, (300, 300), 50, (0, 255, 0), 3)
 #  参数设置：图像、文本内容、起始坐标、字体格式、字体大小、颜色元组，线条粗细
 cv2.putText(img,'woshiCVer', (150,200), cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3)
 cv2.imshow('win',img)
+print('zhey1')
+print('zhey2')
+print('zhey3')
+print('zhey4')
+
 # 画面刷新
 cv2.waitKey(0)
 
